@@ -24,7 +24,9 @@ function App() {
   }
 
   async function handleSelectPlace(selectedPlace) {
-    setUserPlaces((prevPickedPlaces) => {
+    
+    
+    ((prevPickedPlaces) => {
       if (!prevPickedPlaces) {
         prevPickedPlaces = [];
       }
